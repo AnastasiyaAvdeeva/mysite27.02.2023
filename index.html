@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Сайт группы</title>
+    <script async src="js/popup.js"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="img/1244057.png" alt="Изображения нет">
+        <ul class="menu-mysite">
+            <li><a class="menu-click active-link" href="#">Главная</a></li>
+            <li><a class="menu-click" href="./pages/students.html">Студенты</a></li>
+            <li><a class="menu-click" href="./pages/about.html">О курсе</a></li>
+            <li><a class="menu-click" href="./pages/contacts.html">Контакты</a></li>
+        </ul>
+
+        <a class="entrance-button" href="login.html">Войти</a>
+        <div class="entrance-popup">
+            <img class="close-popup" src="./img/cross_wrong_close_delete_icon_191608.svg">
+            <h2 class="entrance-heading">Войти на сайт</h2>
+            <form class="authorization-form">
+                <input class="authorization-input" name="login" type="text" placeholder="Логин" required>
+                <input class="authorization-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="basic-heading">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img class="class-photo" src="img/class2.svg" alt="Изображение нет" width="523px" height="316px">
+        <h2>Для кого этот курс</h2>
+        <div class="basic-text-wrapper">
+            <p class="basic-text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой.
+                В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.
+                Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать
+                папки и файлы, устанавливать программы).</p>
+            <aside class="basic-text-aside">
+                <blockquote class="blockquote-basic">&#8220;Учимся </br>вместе!&#8221;</blockquote>
+            </aside>
+
+        </div>
+        <h2>Чему вы научитесь</h2>
+        <p class="basic-text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с
+            нуля. Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного
+            <strong>JavaScript</strong>. Мы вместе
+            сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em>
+            сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">2022 &#169; <a href="https://innopolis.university/" class="innopolis-link">учебный центр</a></p>
+    </footer>
+</body>
+
+</html>
